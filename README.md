@@ -4,7 +4,7 @@ Apache Flume is distributed, reliable, and available system for efficiently coll
 
 Here in this repository we have used the Apache Flume to transfer the data from : 
 
-1. Netcat to HDFS
+1. Netcat to HDFS(Refer to netcat.config)
 
     Once config file is ready. Run the following command : 
 
@@ -20,7 +20,7 @@ Here in this repository we have used the Apache Flume to transfer the data from 
 
     The data which is written is then stored into the HDFS file location which is given in the config file.
 
-2. local file system(Spooled Directory) to HDFS
+2. local file system(Spooled Directory) to HDFS(Refer to localFiletoHDFS.config)
 
     Once the config file is ready. Run the following command :
     : 
